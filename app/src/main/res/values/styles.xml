@@ -8,4 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+
+<!--    toolbar.setBackgroundColor(Color.parseColor("#80000000"));-->
 </resources>

@@ -1,5 +1,6 @@
 package com.example.flixster;
 
+//import androidx.appcompat.app.ActionBar;
 import android.util.Log;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -33,6 +34,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         RecyclerView rvMovies = findViewById(R.id.rvMovies);
+//        getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+//        getSupportActionBar().setCustomView(R.layout.actionbar_title);
+
         movies = new ArrayList<>();
 
         // Create the adapter
